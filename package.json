@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "nodemon --watch data --watch server server",
 		"build": "next build",
-		"start": "NODE_ENV=production node server.js $PORT",
+		"start": "NODE_ENV=production node server $PORT",
 		"heroku": "next build"
 	},
 	"author": "",
