@@ -1,7 +1,7 @@
 {
 	"name": "next-auth-apollo",
 	"version": "0.1.0",
-	"description": "Authentication Example with Next.js and Apollo GraphQL",
+	"description": "NextJS - Everything You Need Boiler!",
 	"main": "index.js",
 	"scripts": {
 		"dev": "nodemon --watch data --watch server server",
