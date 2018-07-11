@@ -14,7 +14,7 @@ require('dotenv').config()
 const schema = require('./data/schema')
 require('./services/passport')
 
-mongoose.connect(`mongodb://admin:password1@ds213199.mlab.com:13199/nextboiler`)
+mongoose.connect(process.env.MONGO_URL)
 
 const port = process.env.PORT || 3000
 
