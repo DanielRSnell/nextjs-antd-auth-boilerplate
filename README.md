@@ -5,6 +5,7 @@ This example shows how to implement Authentication with Next.js and Apollo Graph
 ## Main Technologies Used
 
 * Apollo GraphQl
+* Antd
 * Express.js
 * Express Validator
 * Next.js
