@@ -8,7 +8,6 @@ const passport = require('passport')
 const expressValidator = require('express-validator')
 const { graphqlExpress, graphiqlExpress } = require('apollo-server-express')
 const next = require('next')
-
 require('dotenv').config()
 
 const schema = require('./data/schema')
