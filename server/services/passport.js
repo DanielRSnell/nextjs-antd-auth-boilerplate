@@ -5,14 +5,12 @@ const User = require('../models/User')
 
 const GitHubStrategy = require('passport-github').Strategy
 
-const { GIT_CLIENT, GIT_SECRET, GIT_CALLBACK } = process.env;
-
 passport.use(
 	new GitHubStrategy(
 		{
 		clientID: GIT_CLIENT,
 		clientSecret: GIT_SECRET,
-		callbackURL: GIT_CALLBACK,
+		callbackURL: "https://nxtboiler.herokuapp.com/auth/github/callback",
 			passReqToCallback: true
 		},
 		(req, accessToken, refreshToken, profile, cb) => {
