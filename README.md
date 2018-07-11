@@ -135,7 +135,7 @@ userSchema.plugin(passportLocalMongoose, {
 
 ### Deploy
 
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/ooade/next-apollo-auth)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/DanielRSnell/nextjs-antd-auth-boilerplate)
 
 ### License
 
