@@ -8,8 +8,8 @@ const GitHubStrategy = require('passport-github').Strategy
 passport.use(
 	new GitHubStrategy(
 		{
-		clientID: GIT_CLIENT,
-		clientSecret: GIT_SECRET,
+		clientID: process.env.GIT_CLIENT,
+		clientSecret: process.env.GIT_SECRET,
 		callbackURL: "https://nxtboiler.herokuapp.com/auth/github/callback",
 			passReqToCallback: true
 		},
