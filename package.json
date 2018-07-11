@@ -7,7 +7,7 @@
 		"dev": "nodemon --watch data --watch server server",
 		"build": "next build",
 		"start": "NODE_ENV=production node server $PORT",
-		"heroku": "next build"
+		"heroku-postbuild": "next build"
 	},
 	"author": "",
 	"license": "MIT",
